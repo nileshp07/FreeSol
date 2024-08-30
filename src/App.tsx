@@ -13,7 +13,7 @@ function App() {
 			<ConnectionProvider endpoint={'https://solana-devnet.g.alchemy.com/v2/q6yoSXU6XQJtWr_2qBYRlRhW-urEqy_f'}>
 				<WalletProvider wallets={[]}>
 					<WalletModalProvider>
-						<main className='max-w-7xl m-auto bg-slate-300 h-lvh'>
+						<main className='max-w-7xl m-auto h-lvh'>
 							<div className='p-8 text-center'>
 								<h1 className='text-6xl text-violet-900 font-bold'>FreeSOL</h1>
 								<h2 className='text-2xl mt-4 font-medium text-slate-800 '>A simple Sol Airdropping DAPP</h2>
